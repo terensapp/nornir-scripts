@@ -1,0 +1,7 @@
+{% for user in remove_users %}
+no username {{ user }}
+{% endfor %}
+
+{% for user in desired_users %}
+username {{ user }} password admin role network-admin
+{% endfor %}

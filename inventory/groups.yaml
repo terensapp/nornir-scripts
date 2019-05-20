@@ -1,0 +1,22 @@
+---
+global:
+   data:
+      domain: auto.lab
+
+eos:
+   data:
+      port: 443
+
+nxos:
+   data:
+      port: 443
+
+junos:
+   data:
+      port: 443
+
+all:
+   data:
+      vlans:
+        100: dev
+        200: prod

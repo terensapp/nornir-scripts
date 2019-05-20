@@ -1,0 +1,31 @@
+---
+arista-eos.all:
+   hostname: 192.168.3.61
+   port: 443
+   platform: eos
+   username: admin
+   password: admin
+   groups:
+      - eos
+   data:
+      role: leaf
+
+cisco-nxos.all:
+   hostname: 192.168.3.62
+   port: 443
+   platform: nxos
+   username: admin
+   password: admin
+   groups:
+      - nxos
+   data:
+      role: leaf
+juniper-qfx.all:
+   hostname: 192.168.3.63
+   platform: junos
+   username: admin
+   password: juniper1
+   groups:
+      - junos
+   data:
+      role: leaf

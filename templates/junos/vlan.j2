@@ -1,0 +1,5 @@
+
+
+{% for vlan in vlans %}
+set vlans vlan{{ vlan }} vlan-id {{ vlan }}
+{% endfor %}
